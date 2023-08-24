@@ -29,12 +29,32 @@ html {
   margin: 0px;
   height: 2em;
   margin-top: 0.6em;
+  gap: 1em;
 }
 #search_input {
   width: 20em;
   height: 2em;
   border-radius: 0.4em;
-  align-items: center;
   border: none;
   font-size: medium;
+}
+#search_icon {
+  height: 1.7em;
+}
+#home_section {
+  margin: 0px;
+  width: 95.4em;
+  height: 30em;
+  background-image: url(pictures/anime_food1.jpg);
+  background-size: cover;
+}
+.home_text {
+  display: inline-block;
+  margin-top: 5em;
+  margin-left: 15em;
+  border: solid black 1px;
+  background-color: rgba(0, 0, 0, 0.155);
+  color: whitesmoke;
+  font-size: 35px;
+  padding: 2em 3em;
 }
