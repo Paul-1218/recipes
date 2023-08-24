@@ -43,18 +43,23 @@ html {
 }
 #home_section {
   margin: 0px;
+  margin-left: -0.48em;
   width: 95.4em;
-  height: 30em;
+  height: 26em;
   background-image: url(pictures/anime_food1.jpg);
   background-size: cover;
 }
 .home_text {
   display: inline-block;
-  margin-top: 5em;
+  margin-top: 3em;
   margin-left: 15em;
   border: solid black 1px;
   background-color: rgba(0, 0, 0, 0.155);
   color: whitesmoke;
   font-size: 35px;
   padding: 2em 3em;
+}
+.home_recipes {
+  display: grid;
+  grid-template-columns: repeat(4 150px);
 }
